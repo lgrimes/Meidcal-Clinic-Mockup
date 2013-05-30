@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Primary.master.cs" Inherits="WebApplication1.MasterPages.Primary" %>
+
+<%@ Register TagPrefix="NavigationBar" Src="~/Navigation/NavigationBar.ascx" TagName="NavigationControl" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Clinic Management System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../App_Themes/styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="Header"><h1>Clinic Management System</h1></div>
+    <div class="NavigationBar">
+       <NavigationBar:NavigationControl runat="server" id="SimpleControl1"></NavigationBar:NavigationControl>
+    </div>
+
+    <div class="Container">
+    <div id="hiddenframe">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderBODY" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

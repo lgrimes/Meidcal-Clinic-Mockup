@@ -1,0 +1,59 @@
+﻿.Header
+{
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.NavigationBar 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 800px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    border:solid; border-width:2px;
+    moz-border-radius: 10px 10px / 10px 10px;
+    border-radius: 10px 10px / 10px 10px;
+
+}
+
+
+.Container 
+{
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: auto;
+    border:solid; border-width:2px;
+    moz-border-radius: 10px 10px / 10px 10px;
+    border-radius: 10px 10px / 10px 10px;
+    
+}
+    
+    
+.Container  #hiddenframe 
+{
+    border-bottom: solid 0px; overflow: hidden;
+}
+
+.Container img.floatright { 
+    margin: 15px;
+    float: right;
+}
+
+.Container h1 
+{
+    text-align:center;
+}    
+.Container h2
+{
+    text-align:left;
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NavContents>
+  <NavContent>
+    <Text>Home</Text>
+    <URL>~/Pages/HomePage.aspx</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Show Doctors</Text>
+    <URL>~/Pages/DoctorList.aspx</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Patient Registration</Text>
+    <URL>~/Pages/PatientRegistration.aspx</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Show Patients</Text>
+    <URL>~/Pages/PatientList.aspx</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Site Map</Text>
+    <URL>~/Pages/SiteMap.aspx</URL>
+  </NavContent>
+</NavContents>
